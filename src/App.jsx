@@ -9,11 +9,11 @@ import img2 from "./images/img2.jpg"
 import vid1 from "./images/vid1.mp4"
 import vid2 from "./images/vid2.mp4"
 import com from "./images/com.png"
-import com-2 from "./images/com-2.png"
-import com-3 from "./images/com-3.png"
-import com-4 from "./images/com-4.png"
-import com-5 from "./images/com-5.png"
-import com-6 from "./images/com-6.png"
+import comtwo from "./images/comtwo.png"
+import comthree from "./images/comthree.png"
+import comfour from "./images/comfour.png"
+import comfive from "./images/comfive.png"
+import comsix from "./images/comsix.png"
 import div1 from "./images/div1.png"
 import div2 from "./images/div2.png"
 import div3 from "./images/div3.png"
@@ -174,12 +174,12 @@ const prevSlide = ()=>{
     <div className="flex gap-6 px-6 min-w-max">
 
       <div className="flex flex-col items-center">
-        <img src={com-3} className="w-[180px] sm:w-[200px] md:w-[220px] h-[150px] sm:h-[170px] md:h-[180px]" />
+        <img src={comthree} className="w-[180px] sm:w-[200px] md:w-[220px] h-[150px] sm:h-[170px] md:h-[180px]" />
         <p className="text-[14px] sm:text-[16px] mt-2">Laptops</p>
       </div>
 
       <div className="flex flex-col items-center">
-        <img src={com-2} className="w-[180px] sm:w-[200px] md:w-[220px] h-[150px] sm:h-[170px] md:h-[180px]" />
+        <img src={comtwo} className="w-[180px] sm:w-[200px] md:w-[220px] h-[150px] sm:h-[170px] md:h-[180px]" />
         <p className="text-[14px] sm:text-[16px] mt-2">Desktops</p>
       </div>
 
@@ -189,17 +189,17 @@ const prevSlide = ()=>{
       </div>
 
       <div className="flex flex-col items-center">
-        <img src={com-4} className="w-[180px] sm:w-[200px] md:w-[220px] h-[150px] sm:h-[170px] md:h-[180px]" />
+        <img src={comfour} className="w-[180px] sm:w-[200px] md:w-[220px] h-[150px] sm:h-[170px] md:h-[180px]" />
         <p className="text-[14px] sm:text-[16px] mt-2">Projectors</p>
       </div>
 
       <div className="flex flex-col items-center">
-        <img src={com-6} className="w-[180px] sm:w-[200px] md:w-[220px] h-[150px] sm:h-[170px] md:h-[180px]" />
+        <img src={comsix} className="w-[180px] sm:w-[200px] md:w-[220px] h-[150px] sm:h-[170px] md:h-[180px]" />
         <p className="text-[14px] sm:text-[16px] mt-2">Acer Chromebooks</p>
       </div>
 
       <div className="flex flex-col items-center">
-        <img src={com-5} className="w-[180px] sm:w-[200px] md:w-[220px] h-[150px] sm:h-[170px] md:h-[180px]" />
+        <img src={comfive} className="w-[180px] sm:w-[200px] md:w-[220px] h-[150px] sm:h-[170px] md:h-[180px]" />
         <p className="text-[14px] sm:text-[16px] mt-2">Graphic Cards</p>
       </div>
 
